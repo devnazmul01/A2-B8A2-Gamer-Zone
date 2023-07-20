@@ -113,6 +113,7 @@ nav{
 .play-instantly{
     display: flex;
     margin-top: 120px;
+    margin-bottom: 0px;
     margin-left: 100px;
     gap: 250px;
 }
@@ -128,4 +129,24 @@ nav{
 }
 .play-instantly-content{
     text-align:end;
+}
+
+/*categories sec*/
+.categories{
+    margin-top: 0px;
+}
+/*categories-1 sec and 2*/
+.categories-1{
+    margin-bottom: 30px;
+}
+.categories-1 ul, .categories-2 ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.categories-1 > ul li, .categories-2 > ul li{
+    list-style: none;
+}
+.categories-1 > ul img, .categories-2 > ul img{
+    width: 30px;
 }
