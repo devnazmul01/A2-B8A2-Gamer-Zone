@@ -150,3 +150,22 @@ nav{
 .categories-1 > ul img, .categories-2 > ul img{
     width: 30px;
 }
+
+/*footer*/
+footer{
+    background: #0B0223;
+}
+#footer-icon{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+}
+footer > div img{
+    width: 30px;
+}
+.links > ul, .brand-img, .links-2, .links-2 > ul, .last{
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
